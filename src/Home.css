@@ -25,7 +25,7 @@ header{
     border: 1px solid var(--primary);
 }
 .hero-tag h1{
-    font-size: 8rem; color: #fff;
+    font-size: 8rem; color: #fff;line-height: 1.1;
 }
 .hero-tag p{
     font-size: 1.5rem;
@@ -78,3 +78,87 @@ header{
 .footer h3{
     padding: 1rem;
 }
+
+@media (max-width: 480px) {
+
+  .hero-tag {
+    padding: 3rem 1rem;
+  }
+
+  .hero-tag h1 {
+    font-size: 3rem;
+  }
+
+  .hero-tag p {
+    font-size: 1.1rem;
+  }
+
+  .card {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .category-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .category-card h4 {
+    font-size: 1.5rem;
+  }
+
+  .footer a {
+    display: inline-block;
+    margin: 8px 5px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .hero-tag {
+    padding: 4rem 2rem;
+  }
+
+  .hero-tag h1 {
+    font-size: 4.5rem;
+  }
+
+  .hero-tag p {
+    font-size: 1.3rem;
+  }
+
+  .card {
+    flex-wrap: wrap;
+  }
+
+  .category-card {
+    width: 45%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .hero-tag h1 {
+    font-size: 6rem;
+  }
+
+  .category-card {
+    width: 30%;
+  }
+}
+@media (min-width: 1200px) {
+
+  .hero {
+    min-height: 90vh;
+  }
+
+  .hero-tag h1 {
+    font-size: 8rem;
+  }
+
+  .card {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
