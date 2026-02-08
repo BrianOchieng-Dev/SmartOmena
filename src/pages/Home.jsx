@@ -31,7 +31,7 @@ export default function Home(){
                 />
                 <Categorycard 
                     image={img1}
-                    description="Premium Pack"
+                    description="Premium Pack + Kachumbari"
                     price="Ksh.120"
                     order="Order Now"
                 />
