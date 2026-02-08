@@ -13,6 +13,7 @@
     "firebase": "^12.8.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-icons-dom": "^1.0.1",
     "sweetalert2": "^11.26.17"
   },
   "devDependencies": {
