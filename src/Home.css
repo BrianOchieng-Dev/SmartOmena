@@ -86,7 +86,10 @@ header{
   }
 
   .hero-tag h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    width:100%;
+    
+    
   }
 
   .hero-tag p {
@@ -121,7 +124,7 @@ header{
   }
 
   .hero-tag h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 
   .hero-tag p {

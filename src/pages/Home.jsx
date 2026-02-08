@@ -1,5 +1,7 @@
 import Nav from '../components/Nav'
 import '../Home.css'
+import img1 from '/img1.png'
+import img3 from '/img3.png'
 import Why from '../pages/Whyus'
 import Categorycard from '../components/Categorycard'
 export default function Home(){
@@ -22,13 +24,13 @@ export default function Home(){
             <h2>Price made simple</h2>
             <div className="card">
                 <Categorycard 
-                    image="/public/image copy 2.png"
+                    image={img3}
                     description="Student Pack"
                     price="Ksh.80"
                     order="Order Now"
                 />
                 <Categorycard 
-                    image="/public/img1.png"
+                    image={img1}
                     description="Premium Pack"
                     price="Ksh.120"
                     order="Order Now"
